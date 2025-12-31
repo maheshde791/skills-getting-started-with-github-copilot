@@ -118,6 +118,21 @@ section h3 {
   opacity: 0.95;
 }
 
+/* Delete/unregister button placed at the end of a participant row */
+.participant-delete {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.participant-delete:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
 .no-participants {
   color: #666;
   font-style: italic;
